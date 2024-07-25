@@ -1191,8 +1191,7 @@ public:
                 }
                 else { MessageTimer -= diff; }
             }
-        }
-    };
+        };
 
     // CREATURE AI
     CreatureAI * GetAI(Creature * creature) const
