@@ -1174,7 +1174,7 @@ public:
                         std::string Message = PickPhrase();
                         me->Say(Message.c_str(), LANG_UNIVERSAL);
                     }
-
+                }
                     // Use gesture?
                     if (EnchanterEmoteCommand != 0)
                     {
